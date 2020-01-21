@@ -1,0 +1,46 @@
+.site-header {
+  display: flex;
+  flex-direction: row;
+  border: unset;
+
+  .wrapper {
+    width: 100%;
+    max-width: 80% !important;
+	display: flex;
+	flex-direction: row;
+
+	.site-title {
+	  max-width: max-content;
+	  min-width: max-content;
+	  width: max-content;
+	  height: 100%;
+      font-size: xx-large;
+      font-weight: inherit;
+	}
+
+	.site-nav {
+	  width: 100%;
+	}
+
+	.social-links {
+      max-width: max-content;
+      width: inherit;
+      margin-top: 1vh;
+
+	  ul {
+		li {
+		  width: max-content;
+		  height: max-content;
+		  a {
+			display: block;
+			img {
+			  width: 32px;
+			  height: 32px;
+			  padding: 5px;
+			}
+		  }
+		}
+	  }
+	}
+  }
+}
